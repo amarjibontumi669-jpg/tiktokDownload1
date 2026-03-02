@@ -108,7 +108,7 @@ app.get('/', (req, res) => {
 
 app.get('/api/download', async (req, res) => {
     try {
-        const response = await axios.get('https://api.kojaxd.dpdns.org/downloader/tiktok?apikey=Koja&url=' + encodeURIComponent(req.query.url));
+        const response = await axios.get('https://www.tikwm.com/api/?url=' + encodeURIComponent(req.query.url));
         res.json(response.data);
     } catch (e) { res.status(500).json({error: true}); }
 });

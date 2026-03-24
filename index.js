@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="google-site-verification" content="5Tu8Y4u65DoHnYKQogjSnoCkfaVNkDCZe4GPsgmhqHw" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TikTok Downloader Pro | Black Herix</title>
